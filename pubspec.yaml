@@ -1,0 +1,25 @@
+name: uas_ambw
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.0.0
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.2
+  flutter_screenutil: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.0
+  build_runner: ^2.1.7
+
+flutter:
+  uses-material-design: true
